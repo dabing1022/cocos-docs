@@ -224,10 +224,25 @@ ccs.ObjectFactory.getInstance()             --> ccs.objectFactory
     ccs.TextAtlas               --> ccui.TextAtlas
     ccs.TextBMFont              --> ccui.TextBMFont
     ccs.TextField               --> ccui.TextField
+    ccs.UILayer                 --> deleted
     ```
 
 * **7.2** 除此之外，3.0版还提供了一个新的富文本控件`ccui.RichText`.
 
+* **7.3** `ccs.UILayer` 已经从v3.0a中删除，Widget对象要加到场景中，直接通过addChild加到Node节点中就可以了。示例如下：
+
+	```
+	// v2.2.2用法:  widget必须要通过UILayer的addWidget方法加入到UILayer之后,再将UILayer加入场景才行
+	var uiLayer = ccs.UILayer.create();
+	uiLayer.addWidget(aWidget);
+	var node = cc.Node.create();
+	node .addChild(uiLayer);
+	...
+	
+	//v3.0a用法: widget可以直接调用node的addChild方法，就可以加入场景了。
+	var node = cc.Node.create();
+	node .addChild(aWidget);	
+	``` 
 
 ##8. NodeGrid
 
@@ -311,6 +326,8 @@ nodeGrid.runAction( shaky );
     cc.loadImage.handler
     cc.computeImageFormatType
     cc.tgaLoad
+    
+    ccs.UILayer
     ```
 
 * **9.8** 其他添加的API：
