@@ -88,15 +88,15 @@
 
 ### Cocos2d-html5
 
-- [Cocos2d-JS与Cocos2d-html5 v3.0a发布说明](../manual/framework/html5/release-notes/v3.0a/release-note/zh.md)
-- [Cocos2d-html5 v3.0a改动列表](../manual/framework/html5/release-notes/v3.0a/changelog/en.md)
-- [从Cocos2d-html5 v2.2.2到v3.0a的升级指南](../manual/framework/html5/release-notes/v3.0a/upgrade-guide/zh.md)
+- [Cocos2d-JS v3.0a2发布说明](../manual/framework/html5/release-notes/v3.0a2/release-note/zh.md)
+- [Cocos2d-JS v3.0a2改动列表](../manual/framework/html5/release-notes/v3.0a2/changelog/en.md)
+- [Cocos2d-JS v3.0a2升级指南](../manual/framework/html5/release-notes/v3.0a/upgrade-guide/zh.md)
 - 综述
 	- [关于Cocos2d-html5](../manual/framework/html5/about/zh.md)
 	- [供NPM使用的Cocos-utils](../manual/framework/html5/cocos-utils-for-npm/zh.md)
 	- [Cocos2d-html5新手入门](../manual/framework/html5/getting-started_with-cocos2d-html5/zh.md)
-	- [Release Note](../manual/framework/html5/release-notes-for-cocos2d-html5/release-notes-for-cocos2d-html5-v222/zh.md)
-	- [升级指南](../manual/framework/html5/upgrade-guides-html5/zh.md)
+    - [如何在jsb项目中使用extension](../manual/framework/html5/jsb/jsb-extension/zh.md)
+	- [Release Notes](../manual/framework/html5/release-notes/zh.md)
 - 初步了解Cocos2d-html5
     - [如何搭建Cocos2d-html5开发调试环境](../manual/framework/html5/setup-devenv/zh.md)
     - [如何自定义Cocos2d-html5加载界面](../manual/framework/html5/customize-loading-screen/zh.md)
@@ -107,6 +107,7 @@
     - [属性风格API](../manual/framework/html5/v3.0/getter-setter-api/zh.md)
     - [使用cocos console创建工程](../manual/framework/html5/cocos-console/zh.md)
     - [简化的游戏启动流程](../manual/framework/html5/v3.0/cc-game/zh.md)
+    - [对象构造与类继承](../manual/framework/html5/v3.0/inheritance/zh.md)
     - [Cocos2d-html5模块化](../manual/framework/html5/v3.0/moduleconfig-json/zh.md)
     - [项目配置文件](../manual/framework/html5/v3.0/project-json/zh.md)
     - [基础数据类型重构](../manual/framework/html5/v3.0/basic-data/zh.md)
@@ -144,6 +145,7 @@
 - [使用Cocos2d-x实现一款类似《Flappy Bird》的游戏](../tutorial/how-to-make-a-game-like-flappybird/zh.md)
 - [cocos2d-x3.x实现屏幕画线并添加刚体属性](../tutorial/line-with-physic-property/zh.md)
 - [怎样在Cocos2d-x中使用A*算法（v3.0）](../tutorial/how-to-use-a-star-in-cocos2dx/zh.md)
+- [cocos2d-x iOS集成push](../tutorial/how-to-integration-iOS-push-in-cocos2dx/zh.md)
 - 如何使用Cocos2d-x 3.0来做一个简单的iphone游戏教程(v3.0)
 	- [part 1 游戏主逻辑实现](../tutorial/how-to-make-a-simple-cocos2dx-game/chapter-1/zh.md)
 	- [part 2 添加更强力的武器](../tutorial/how-to-make-a-simple-cocos2dx-game/chapter-2/zh.md)
@@ -249,6 +251,11 @@
 	- CocoStudio简介
 	- 准备开发环境
 	- 建立一个跑酷游戏
+	
+### Cocos Code IDE
+- [Cocos Code IDE入门指南](../manual/studio/cocos-code-ide/getting-started/zh.md)
+- [使用Code IDE调试Cocos2d-x Lua游戏](../manual/studio/cocos-code-ide/debug-lua/zh.md)
+- [使用Code IDE调试Cocos2d-x JavaScript游戏](../manual/studio/cocos-code-ide/debug-js/zh.md)
 
 ### 其他工具
 - [CocosBuilder](../manual/framework/native/tools-and-editors/zh.md)

@@ -62,18 +62,19 @@
 		- [use webbroswer to integrate Alipay on Windows Phone 8](../manual/framework/native/sdk-integration/wp8-webbrowser/en.md)
 		- [integrate third SDK in Windows Phone 8](../manual/framework/native/sdk-integration/wp8-thirdSDK/en.md)
 	- Cocos2d-html5
-        - [Highlighted release note of Cocos2d-JS and Cocos2d-html5 v3.0a](../manual/framework/html5/release-notes/v3.0a/release-note/en.md)
-        - [Changelog of Cocos2d-html5 v3.0a](../manual/framework/html5/release-notes/v3.0a/changelog/en.md)
-        - [Upgrade guide frome Cocos2d-html5 v2.2.2 to v3.0a](../manual/framework/html5/release-notes/v3.0a/upgrade-guide/en.md)
+        - [Highlighted release note of Cocos2d-JS v3.0a2](../manual/framework/html5/release-notes/v3.0a2/release-note/en.md)
+        - [Changelog of Cocos2d-JS v3.0a2](../manual/framework/html5/release-notes/v3.0a2/changelog/en.md)
+        - [Upgrade guide to Cocos2d-JS v3.0a2](../manual/framework/html5/release-notes/v3.0a/upgrade-guide/en.md)
 		- Startup
 			- [Why use Cocos2d-html5 for Game Development](../manual/framework/html5/cocosh5-advantages/en.md)
 			- [Resolution Policy Design for Cocos2d-html5](../manual/framework/html5/resolution-policy-design/en.md)
-			- [Cocos utils based on node.js and NPM](../manual/framework/html5/cocos-utils/en.md))
+			- [Cocos utils based on node.js and NPM](../manual/framework/html5/cocos-utils/en.md)
         - New features and API changes in version 3.0:
             - [New workflow with cocos console](../manual/framework/html5/cocos-console/en.md)
             - [New event manager](../manual/framework/html5/v3.0/eventManager/en.md)
             - [New property API](../manual/framework/html5/v3.0/getter-setter-api/en.md)
             - [Game creation](../manual/framework/html5/v3.0/cc-game/en.md)
+            - [Construction and inheritance](../manual/framework/html5/v3.0/inheritance/en.md)
             - [Cocos2d-html5 modulization](../manual/framework/html5/v3.0/moduleconfig-json/en.md)
             - [Pure configuration file](../manual/framework/html5/v3.0/project-json/en.md)
             - [Basic data refactoration](../manual/framework/html5/v3.0/basic-data/en.md)
